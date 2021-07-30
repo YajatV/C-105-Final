@@ -1,0 +1,31 @@
+body { 
+    background:linear-gradient(rgb(129, 129, 255), rgb(114, 248, 114), rgb(255, 195, 84));
+color:black;
+}
+h1{
+    width: 80%;
+    font-size: 80px;
+font-variant: small-caps;
+font-family: 'Playfair Display', serif;
+border:2px groove whitesmoke;
+box-shadow: 5px 5px 5px gray;
+background-color: orange;
+}
+
+#camera{
+    border:2px dashed black;
+    width:350px;
+    height:300px;
+}
+
+.name_of_objects,#result_object_name,#result_object_accuracy{
+color:blue;
+}
+
+button{
+    transition: transform 1s;
+}
+
+button:hover{
+    transform:rotateY(180deg);
+}
